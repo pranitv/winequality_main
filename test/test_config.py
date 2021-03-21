@@ -9,6 +9,6 @@ class NotInRange(Exception):
 
 
 def test_generic():
-    a = 5
+    a = 15
     if a not in range(10,20):
         raise NotInRange

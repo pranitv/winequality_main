@@ -1,6 +1,6 @@
 action: GLOB, msg: packaging
 cwd: C:\Users\PRANIT\Desktop\Coding\Data_Science_Projects\Wine_Quality_Classification\WineQuality_Main
-cmd: 'c:\users\pranit\anaconda3\envs\winequality\python.exe' setup.py sdist --formats=zip --dist-dir 'C:\Users\PRANIT\Desktop\Coding\Data_Science_Projects\Wine_Quality_Classification\WineQuality_Main\.tox\dist'
+cmd: 'c:\users\pranit\anaconda3\envs\winequality\python.exe' setup.py sdist --formats=zip --dist-dir '.tox\dist'
 running sdist
 running egg_info
 writing src.egg-info\PKG-INFO
@@ -35,8 +35,7 @@ copying test\__init__.py -> src-0.0.1\test
 copying test\conftest.py -> src-0.0.1\test
 copying test\test_config.py -> src-0.0.1\test
 Writing src-0.0.1\setup.cfg
-creating C:\Users\PRANIT\Desktop\Coding\Data_Science_Projects\Wine_Quality_Classification\WineQuality_Main\.tox\dist
-creating 'C:\Users\PRANIT\Desktop\Coding\Data_Science_Projects\Wine_Quality_Classification\WineQuality_Main\.tox\dist\src-0.0.1.zip' and adding 'src-0.0.1' to it
+creating '.tox\dist\src-0.0.1.zip' and adding 'src-0.0.1' to it
 adding 'src-0.0.1'
 adding 'src-0.0.1\src'
 adding 'src-0.0.1\src.egg-info'
