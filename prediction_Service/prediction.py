@@ -68,7 +68,7 @@ def form_response(dict_request):
     if validate_input(dict_request):
         data = dict_request.values()
         # print(data)
-        data = np.array([[float(i[0]) for i in list(data)]])
+        data = np.array([[float(i) for i in list(data)]])
         response = predict(data)
         return response
 
