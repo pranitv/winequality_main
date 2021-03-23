@@ -12,3 +12,12 @@ install the req
 ```bash
 pip install -r requirements.txt
 ```
+
+````
+creat a artifacts folder
+mlflow server command -
+
+mlflow server \
+    --backend-store-url sqlite:///mlflow.db \
+    --default-artifact-root ./artifacts \
+    --host 0.0.0.0 -p 1234
